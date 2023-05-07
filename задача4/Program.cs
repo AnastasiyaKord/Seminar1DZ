@@ -7,7 +7,9 @@
 {
  
     int a, b, c;
+    
     int max;
+
     Console.WriteLine("Введите три числа : ");
  
     a = Convert.ToInt32(Console.ReadLine());
@@ -16,11 +18,11 @@
 
     c = Convert.ToInt32(Console.ReadLine());
 
-     max = a;
+    max = a;
 
-if (b>max)max=b;
+if (b > max) max = b;
 
-if (c>max)max=c;
+if (c > max) max = c;
 
 Console.WriteLine("{0} = max", max);
 }
